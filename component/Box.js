@@ -26,7 +26,7 @@ console.log(props.userBoxColor, props.computerBoxColor)
         
         <div className='center'>
            <h1 className='title'>{props.title}</h1>
-           <img className='img' src={props.item && props.item.img} art='주먹'></img>          
+           <img className='img' src={props.item && props.item.img} alt='주먹'></img>          
            {/* 명확하게 정해지지 않는 값일경우 앞에 가드 넣어줘야 해 (props.item && ) */}
             <p className={`boxColor${props.computerBoxColor}`}></p>
             <p className={`boxColor${props.userBoxColor}`}></p>
